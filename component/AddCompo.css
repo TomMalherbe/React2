@@ -1,0 +1,28 @@
+form{
+    --c: rgb(0, 0, 0);
+    color: var(--c);
+    font-size: 18px;
+    border: 0.1em solid var(--c);
+    border-radius: 5em;
+    width: 500px ;
+    height: 100px;
+    background-color: rgb(217, 217, 250);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+h3{
+    --c: rgb(255, 255, 255);
+    font-size: 40px;
+    width: 500px ;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    z-index: 1;
+    transition: 0.5s;
+}
